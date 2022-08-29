@@ -23,17 +23,17 @@ public class TV {
 	public Control getcontrol () {
 		return control;}
 	public void setcontrol (Control cant) {
-		control = cant;}
+		this.control = cant;}
 	
 	public int getprecio () {
 		return precio;}
 	public void setprecio (int prec) {
-		precio = prec;}
+		this.precio = prec;}
 	
 	public int getvolumen () {
 		return volumen;}
 	public void setvolumen (int vol) {
-		volumen = vol;}
+		this.volumen = vol;}
 	
 	public int getcanal () {
 		return canal;}
