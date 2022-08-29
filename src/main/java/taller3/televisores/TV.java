@@ -9,8 +9,9 @@ public class TV {
 	private Control control;
 	private static int numTV;
 	
-	public TV (String marca, boolean estado){
+	public TV (Marca marca, boolean estado){
 		this.estado =estado;
+		this.marca=marca;
 		numTV++;
 	}
     
