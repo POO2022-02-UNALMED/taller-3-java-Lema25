@@ -15,30 +15,25 @@ public class TV {
 		numTV++;
 	}
     
-	
 	public Marca getmarca () {
 		return marca;}
 	public void setmarca (Marca marc) {
-		marca = marc;}
-	
+		this.marca = marc;}
 	
 	public Control getcontrol () {
 		return control;}
-	public void setmarca (Control cant) {
+	public void setcontrol (Control cant) {
 		control = cant;}
-	
 	
 	public int getprecio () {
 		return precio;}
 	public void setprecio (int prec) {
 		precio = prec;}
 	
-	
 	public int getvolumen () {
 		return volumen;}
 	public void setvolumen (int vol) {
 		volumen = vol;}
-	
 	
 	public int getcanal () {
 		return canal;}
@@ -49,8 +44,6 @@ public class TV {
 				}
 		}
 	}
-
-
 	public static void setNumTV(int numTV) {
 		TV.numTV=numTV;}
     public static int getnumTV() {
